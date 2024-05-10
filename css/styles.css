@@ -11,6 +11,36 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+ .button-62 {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.button-62:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.button-62:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
  .schedule-section {
   background-color: #ffffff; /* Light background for the schedule */
   color: #333; /* Dark text for readability */
@@ -2969,20 +2999,20 @@ textarea.form-control-lg {
 }
 
 .btn-warning {
-  --bs-btn-color: #000;
-  --bs-btn-bg: #e4c662;
-  --bs-btn-border-color: #e4c662;
-  --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #e8cf7a;
-  --bs-btn-hover-border-color: #e7cc72;
-  --bs-btn-focus-shadow-rgb: 194, 168, 83;
-  --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #e9d181;
-  --bs-btn-active-border-color: #e7cc72;
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #a2373e;
+  --bs-btn-border-color: #a16468;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #895558;
+  --bs-btn-hover-border-color: #815053;
+  --bs-btn-focus-shadow-rgb: 175, 123, 127;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #815053;
+  --bs-btn-active-border-color: #794b4e;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #000;
-  --bs-btn-disabled-bg: #e4c662;
-  --bs-btn-disabled-border-color: #e4c662;
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #a16468;
+  --bs-btn-disabled-border-color: #a16468;
 }
 
 .btn-danger {
