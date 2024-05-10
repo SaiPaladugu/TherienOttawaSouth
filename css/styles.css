@@ -69,6 +69,12 @@
   object-fit: cover;     /* Cover the space without preserving aspect ratio */
 }
 
+#swag {
+  width: 100%;           /* Ensure the image covers the full width */
+  height: 100%;          /* Ensure the image covers the full height */
+  object-fit: cover;     /* Cover the space without preserving aspect ratio */
+}
+
 .headshot img {
   margin-inline: auto;
 }
@@ -11163,7 +11169,7 @@ body {
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background: linear-gradient(rgba(200, 0, 0, 1.5), rgba(212, 119, 119, 0.5));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
           background-clip: text;

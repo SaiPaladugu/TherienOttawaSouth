@@ -11,6 +11,14 @@
         <link rel="icon" type="image/x-icon" href="assetsOtt/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- Bootstrap Icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- SimpleLightbox plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
@@ -37,8 +45,9 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#instructors">Instructors</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#programs">Programs</a></li>
                         <li class="nav-item"><a class="nav-link" href="#schedule">Schedule</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#signup">Join Now</a></li>
                     </ul>
                 </div>
             </div>
@@ -48,8 +57,8 @@
             <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
-                        <h1 class="mx-auto my-0 text-uppercase">Therien</h1>
-                        <h2 class="text-white-50 mx-auto mt-2 mb-5">Take a step into the martial art experience</h2>
+                        <img src="assetsOtt/img/logo2crop.png" alt="Therien Logo" class="mx-auto my-0" style="width:600px; height: auto;">
+                        <br>
                         <button class="button-62" role="button" onclick="location.href='#about';">Get started</button>
                     </div>
                 </div>
@@ -60,13 +69,13 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8">
-                        <h2 class="text-white mb-4">JIU-JITSU & KICKBOXING</h2>
+                        <h2 class="text-danger mb-4">JIU-JITSU & KICKBOXING</h2>
                         <p class="text-white-50">
                             Train with a living-legend in martial arts and in the community; “The Iceman” Jean-Yves Theriault. His teaching experience will ensure that you can successfully complete our classes, while having a lot of fun in the process. At Therien Jiu-Jitsu & Kickboxing Ottawa South, we take pride in the fact that none of our students ever feel like they're “lost in the mix”
                         </p>
                     </div>
                 </div>
-                <img class="img-fluid" src="assetsOtt/img/jeanPNG_50.png" alt="..." />
+                <img class="img-fluid" src="assetsOtt/img/punch_upscaled.png" alt="..." />
             </div>
         </section>
         <!-- Instructors-->
@@ -164,9 +173,79 @@
                 </div>
             </div>
         </section>
+        <!-- Programs -->
+        <section class="page-section bg-light" id="programs">
+            <div class="container-fluid px-4 px-lg-5">
+                <h2 class="text-center mt-0">Programs</h2>
+                <hr class="divider" />
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="material-icons fs-1 text-primary">child_care</i></div>
+                            <h3 class="h4 mb-2">Children's Jiu-Jitsu</h3>
+                            <p class="text-muted mb-0">Our number one goal with the kids program is to provide a safe environment. We also promote social development in a fun filled setting.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="material-icons fs-1 text-primary">sports_kabaddi</i></div>
+                            <h3 class="h4 mb-2">Adult's Jiu-Jitsu</h3>
+                            <p class="text-muted mb-0">Jiu jitsu remains one of the most effective self defence systems around. While learning to defend yourself and family you will learn to remain calm under pressure at school and at work.</p>
+                            <br><p>Coming soon.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="material-icons fs-1 text-primary">sports_gymnastics</i></div>
+                            <h3 class="h4 mb-2">Beginner Kickboxing</h3>
+                            <p class="text-muted mb-0">Beginner-friendly kickboxing classes that teach you the fundamentals of the sport in a supportive environment.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="material-icons fs-1 text-primary">sports_martial_arts</i></div>
+                            <h3 class="h4 mb-2">Advanced Kickboxing</h3>
+                            <p class="text-muted mb-0">Advanced techniques for experienced kickboxers looking to refine their skills and competitive edge.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Carousel -->
+                <div id="carouselExampleIndicators" class="carousel carousel-dark slide mt-3" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assetsOtt/img/collage1.png" class="d-block w-100" alt="Collage of martial arts activities">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assetsOtt/img/collage2.png" class="d-block w-100" alt="Additional collage of martial arts activities">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assetsOtt/img/collage3.png" class="d-block w-100" alt="Further collage of martial arts activities">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assetsOtt/img/collage4.png" class="d-block w-100" alt="More collage of martial arts activities">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>    
         <!-- Schedule -->
         <body>
-        <section class="schedule-section bg-white" id="schedule">
+        <section class="schedule-section bg-light" id="schedule">
+            <h2 class="text-center mt-0">Schedule</h2>
             <div class="cd-schedule cd-schedule--loading margin-top-lg margin-bottom-lg js-cd-schedule">
               <div class="cd-schedule__timeline">
                 <ul>
@@ -319,7 +398,7 @@
               </div>
           
               <div class="cd-schedule__cover-layer"></div>
-            </div> <!-- .cd-schedule -->
+            </div>
           
             <script src="schedule-template-master/assets/js/util.js"></script>
             <script src="schedule-template-master/assets/js/main.js"></script>
