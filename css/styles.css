@@ -1,16 +1,3 @@
-@charset "UTF-8";
-/*!
-* Start Bootstrap - Grayscale v7.0.6 (https://startbootstrap.com/theme/grayscale)
-* Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-grayscale/blob/master/LICENSE)
-*/
-/*!
- * Bootstrap  v5.2.3 (https://getbootstrap.com/)
- * Copyright 2011-2022 The Bootstrap Authors
- * Copyright 2011-2022 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
-
  .button-62 {
   background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
   border: 0;
@@ -18,9 +5,6 @@
   color: #FFFFFF;
   cursor: pointer;
   display: inline-block;
-  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-size: 16px;
-  font-weight: 500;
   line-height: 2.5;
   outline: transparent;
   padding: 0 1rem;
@@ -2953,6 +2937,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: #64a19d;
 }
 
+
 .btn-secondary {
   --bs-btn-color: #fff;
   --bs-btn-bg: #7464a1;
@@ -3023,7 +3008,7 @@ textarea.form-control-lg {
 
 .btn-danger {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #a2373e;
+  --bs-btn-bg: #e51f24;
   --bs-btn-border-color: #a16468;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #895558;
