@@ -298,21 +298,25 @@ a {
 .cd-schedule__event [data-event="event-1"],
 .cd-schedule-modal[data-event="event-1"] .cd-schedule-modal__header-bg {
 	// this is used to set a background color for the event and the modal window
+  z-index: 100;
 	background: var(--cd-color-event-1);
 }
 
 .cd-schedule__event [data-event="event-2"],
 .cd-schedule-modal[data-event="event-2"] .cd-schedule-modal__header-bg {
+  z-index: 100;
 	background: var(--cd-color-event-2);
 }
 
 .cd-schedule__event [data-event="event-3"],
 .cd-schedule-modal[data-event="event-3"] .cd-schedule-modal__header-bg {
+  z-index: 100;
 	background: var(--cd-color-event-3);
 }
 
 .cd-schedule__event [data-event="event-4"],
 .cd-schedule-modal[data-event="event-4"] .cd-schedule-modal__header-bg {
+  z-index: 100;
 	background: var(--cd-color-event-4);
 }
 
@@ -343,6 +347,7 @@ a {
 }
 
 .cd-schedule-modal__header {
+  z-index: 100;
   position: relative;
   height: 70px;
   display: flex;
@@ -359,6 +364,7 @@ a {
 }
 
 .cd-schedule-modal__content {
+  z-index: 100;
   position: relative;
   z-index: 3;
   display: flex;
@@ -373,6 +379,7 @@ a {
 }
 
 .cd-schedule-modal__body {
+  z-index: 100;
   position: relative;
   width: 100%;
   height: calc(100% - 70px); // 70px is the .cd-schedule-modal__header height
