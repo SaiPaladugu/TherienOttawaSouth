@@ -6,6 +6,19 @@
 .custom-font {
   font-family: 'Americana Bold' !important;
 }
+
+p.indent {
+  text-indent: 30px;
+}
+
+@media (min-width: 64rem) {
+  .js .cd-schedule__group>ul {
+      height: 500px !important;
+      overflow: visible;
+      padding: 0;
+  }
+}
+
  
  .button-62 {
   background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
